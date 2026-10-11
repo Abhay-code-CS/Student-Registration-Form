@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+
+    <form action="#" method="post">
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" name="fullName" required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+        <br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        <br><br>
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+        <br><br>
+        
+        <label for="hobby">Hobbies:</label><br>
+        <input type="checkbox" id="reading" name="hobbies" value="Reading">
+        <label for="reading">Reading</label>
+        <input type="checkbox" id="sports" name="hobbies" value="Sports">
+        <label for="sports">Sports</label>
+        <input type="checkbox" id="music" name="hobbies" value="Music">
+        <label for="music">Music</label>
+        <!-- <label for="traveling">Traveling</label> -->
+        <input type="checkbox" id="traveling" name="hobbies" value="Traveling">
+        <label for="traveling">Traveling</label>
+        <!-- <label for="singing">Singing</label> -->
+        <input type="checkbox" id="singing" name="hobbies" value="Singing">
+        <label for="singing">Singing</label>
+        
+        <br><br>
+
+        <label for="course">Course:</label>
+        <select id="course" name="course" required>
+            <option value="">Select a course</option>
+            <option value="bca">BCA</option>
+            <option value="bba">BBA</option>
+            <option value="btech">B.Tech</option>
+            <option value="mca">MCA</option>
+        </select>
+        <br><br>
+
+        <label for="branch">Branch:</label>
+        <select id="branch" name="branch" required>
+            <option value="">Select a branch</option>
+            <option value="CS">Computer Science</option>
+            <option value="IT">Information Technology</option>
+            <option value="ECE">Electronics and Communication</option>
+            <option value="ME">Mechanical Engineering</option>
+            <option value="CE">Civil Engineering</option>
+            <option value="CSE">Computer Science and Engineering</option>
+            <option value="ELCE">Electronics and Computer Engineering</option>
+            <option value="CSE AI">Computer Science and Engineering (AI)</option>
+            <option value="CSE DS">Computer Science and Engineering (Data Science)</option>
+            <option value="CSE Cybersecurity">Computer Science and Engineering (Cybersecurity)</option>
+            <option value="CSE AI ML">Computer Science and Engineering (AI & ML)</option>
+        </select>
+        <br><br>
+
+        <label for="address">Address:</label><br>
+        <textarea id="address" name="address" rows="4" cols="30" required></textarea>
+        <br><br>
+
+        <input type="submit" value="Register">   
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
