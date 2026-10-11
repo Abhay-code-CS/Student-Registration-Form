@@ -27,7 +27,7 @@ A simple **Student Registration Form** created using pure HTML as a beginner web
 
 ```text
 Student-Registration-Form/
-├── index.html
+├── Form.html
 └── README.md
 ```
 
